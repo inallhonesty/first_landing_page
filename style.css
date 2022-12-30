@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0% 7%;
+}
+
+.footer,
+.hero {
+    background-color: #1f2937;
+    padding: 0% 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.hero-secondary,
+.header-list {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 24px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding: 64px 0;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+button {
+    width: 120px;
+    background-color: #3882F6;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    flex: 0, 0, auto;
+    border-radius: 6px;
+    font-weight: 900;
+    padding: 8px;
+    color: white;
+
+}
+
+img {
+    flex: 0 0 auto;
+}
+
+.action-section,
+.info {
+    background-color: #F9FAF8;
+    padding: 64px 15%;
+}
+
+.some-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.info-continer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-box {
+    text-align: center;
+    color: #4f5257;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 64px 20%;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 30px;
+}
+
+.wbutton {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    border-radius: 6px;
+    display: flex;
+    padding: 4% 6%;
+    justify-content: space-around;
+
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 48px 15%;
+}
